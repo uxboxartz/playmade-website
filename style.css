@@ -639,6 +639,7 @@ nav ul li a:hover::after {
   padding: 20px;
 }
 
+
 .partner-content h1 {
   font-size: 100px;
   font-weight: 900;
@@ -648,8 +649,12 @@ nav ul li a:hover::after {
   margin-bottom: 20px;
 }
 
+.partner-content h5 {
+color: #F45C0F; /* Dark brown */
+}
+
 .partner-content h1 span {
-  color: #ff7a00; /* Orange for 'PlayMade' */
+  color: #F45C0F; /* Orange for 'PlayMade' */
 }
 
 .partner-content p {
