@@ -10,9 +10,7 @@ document.getElementById("contact-form").addEventListener("submit", async functio
     try {
         const response = await fetch("https://playmade-backend.vercel.app/send-email", {
             method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData),
         });
 
